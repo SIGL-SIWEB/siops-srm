@@ -1,0 +1,3 @@
+# SIOps Shared Responsability Model
+
+...
