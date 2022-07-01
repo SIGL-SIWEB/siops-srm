@@ -1,4 +1,4 @@
-# SiOps infos
+# Offre de services - SiOps
 ## Catalogue de Service
 
 SiOps propose des VM (Avec un Firewall par défaut)
