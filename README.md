@@ -1,7 +1,3 @@
-# Informations de contact
-Pour toutes demandes de services ou d'informations, nous vous invitons à envoyer un email à ing-sigl-siops@groups.cri.epita.fr
-
-
 # Offre de services - SiOps
 ## Catalogue de Service
 
@@ -53,3 +49,5 @@ Les clients sont responsables des accés à leurs VMs.
 
 Les clients sont responsables de la mise à jour de leurs applications et systèmes d'exploitation.
 
+# Informations de contact
+Pour toutes demandes de services ou d'informations, nous vous invitons à envoyer un email à ing-sigl-siops@groups.cri.epita.fr
