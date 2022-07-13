@@ -1,41 +1,55 @@
+# Informations de contact
+Pour toutes demandes de services ou d'informations, nous vous invitons à envoyer un email à ing-sigl-siops@groups.cri.epita.fr
+
+
 # Offre de services - SiOps
 ## Catalogue de Service
 
-SiOps propose des VM (Avec un Firewall par défaut)
-Les différents systèmes d'exploitations disponibles sont:
+SiOps propose des VMs (avec un Firewall par défaut).
+
+Les différents systèmes d'exploitation disponibles sont:
   - Ubuntu 20.04 (LTS)
   - Ubuntu 22.04 (LTS)
 
+SiOps est responsable de l'organisation "SIGL" sur le [GitLab du CRI](https://gitlab.cri.epita.fr/), nous proposons à nos clients des sous-organisations et des dépôts.
+
 SiOps propose les applications suivantes en SaaS:
-  - Keycloak
-  - BitWarden
-  - Wiki
-  - Vault
-  - Monitoring avec Kibana
- 
-SiOps propose un service de consulting dans la gestion et la configuration de leurs VM (en terme de réseaux, de ressources, architecture).
+  - [Keycloak](https://www.keycloak.org/)
+  - [Bitwarden](https://bitwarden.com/) (version [Vaultwarden](https://github.com/dani-garcia/vaultwarden))
+  - [Wiki.js](https://js.wiki/)
+  - [Vault](https://www.vaultproject.io/)
+  - [EFK](https://www.elastic.co/fr/elasticsearch/)
+  - [GitHub Runner](https://github.com/features/actions)
 
-## Service Level Agreement
+SiOps est responsable de la mise à jour des services fournis.
+
+SiOps peut également proposer d'accompagner ses clients dans l'utilisation et la configuration des services proposés (sur demande).
+
+## Service Level Objectives
 ### Backups
-L'Equipe SiOps est responsable de sauvegarder les backups de chaque VM qui ont été up plus de 24 heures en continue lors de la semaine écoulée (soit 1 backups par jour pendant 7 jours).
+SiOps est responsable de faire des sauvegardes de chaque VM qui est allumée depuis plus de 24 heures en continu lors de la semaine écoulée (soit 1 backup par jour pendant 7 jours).
 
-## SIOps Shared Responsability Model
+## SiOps Shared Responsability Model
 
 ### Ce qui est de la responsabilité de SiOps
 #### Sécurité
-Responsable de la sécurité de l'infrastructure.
-#### Hardware
-L'Equipe SiOps est responsable du maintient du Hardware et de son renouvellement, plus précisément de notre baie dans la salle serveur du CRI.\
-L'Equipe SiOps est responsable de maintenir des capacités en terme de stockage, compute et network suffisante pour tout nos clients.
+Responsable de la sécurité de l’infrastructure logicielle et réseau.
 
-#### SoftWare
-L'Equipe SiOps est responsable de l'installation et du maintient des hyperviseurs VMware sur ces serveurs.\
-L'Equipe SiOps est responsable des backups de chaque VM.
+#### Matériel physique
+SiOps est responsable du maintien du matériel physique et de son renouvellement, plus précisément de notre baie dans la salle serveur du CRI. SiOps n'est cependant pas responsable du bon fonctionnement de la salle serveur.
+
+SiOps est responsable de maintenir des capacités en terme de stockage, calcul et réseau suffisantes pour tous ses clients.
+
+#### Logiciel
+SiOps est responsable de l'installation et du maintien des hyperviseurs VMware sur ses serveurs.
 
 ### Ce qui est de la responsabilité des clients
 #### Sécurité
-Les clients sont responsables de la sécurité dans leur VM. \
-Les clients sont responsables des accés à leurs VM.\
-Les clients sont responsables de la mise à jour de leur VM et des applications qui sont dessus.\
-Les clients sont responsables de l'intégrité de leurs données au niveau du Software.
+Les clients sont responsables des actions effectuées sur leurs VMs.
+
+Les clients sont responsables de la sécurité dans leurs VMs.
+
+Les clients sont responsables des accés à leurs VMs.
+
+Les clients sont responsables de la mise à jour de leurs applications et systèmes d'exploitation.
 
