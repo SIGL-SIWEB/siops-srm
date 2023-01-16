@@ -16,10 +16,13 @@ SiOps propose les applications suivantes en SaaS:
   - [Vault](https://www.vaultproject.io/)
   - [EFK](https://www.elastic.co/fr/elasticsearch/)
   - [GitHub Runner](https://github.com/features/actions)
+  - [Monitoring & Alerting](https://gatus.sigl.epita.fr)
 
 SiOps est responsable de la mise à jour des services fournis.
 
 SiOps peut également proposer d'accompagner ses clients dans l'utilisation et la configuration des services proposés (sur demande).
+
+En ce qui concerne l'alerting, SiOps peut fournir via gatus des alerts automatique via des webhooks fournit par le client.
 
 ## Service Level Objectives
 ### Backups
