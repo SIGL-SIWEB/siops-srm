@@ -28,6 +28,8 @@ En ce qui concerne l'alerting, SiOps peut fournir via gatus des alerts automatiq
 ### Backups
 SiOps est responsable de faire des sauvegardes de chaque VM qui est allumée depuis plus de 24 heures en continu lors de la semaine écoulée (soit 1 backup par jour pendant 7 jours).
 
+Il est possible de demander la restauration d'une de ces sauvegardes en nous contactant par mail à l'addresse [ing-sigl-siops@groups.cri.epita.fr](mailto:ing-sigl-siops@groups.cri.epita.fr).
+
 ## SiOps Shared Responsability Model
 
 ### Ce qui est de la responsabilité de SiOps
