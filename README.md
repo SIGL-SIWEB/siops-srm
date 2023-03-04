@@ -13,7 +13,6 @@ SiOps propose les applications suivantes en SaaS:
   - [Keycloak](https://www.keycloak.org/)
   - [Bitwarden](https://bitwarden.com/) (version [Vaultwarden](https://github.com/dani-garcia/vaultwarden))
   - [Wiki.js](https://js.wiki/)
-  - [Vault](https://www.vaultproject.io/)
   - [EFK](https://www.elastic.co/fr/elasticsearch/)
   - [GitHub Runner](https://github.com/features/actions)
   - [Monitoring & Alerting](https://gatus.sigl.epita.fr)
@@ -22,13 +21,13 @@ SiOps est responsable de la mise à jour des services fournis.
 
 SiOps peut également proposer d'accompagner ses clients dans l'utilisation et la configuration des services proposés (sur demande).
 
-En ce qui concerne l'alerting, SiOps peut fournir via gatus des alerts automatique via des webhooks fournit par le client.
+En ce qui concerne l'alerting, SiOps peut fournir via gatus des alertes automatiques via des webhooks fournis par le client.
 
 ## Service Level Objectives
 ### Backups
 SiOps est responsable de faire des sauvegardes de chaque VM qui est allumée depuis plus de 24 heures en continu lors de la semaine écoulée (soit 1 backup par jour pendant 7 jours).
 
-Il est possible de demander la restauration d'une de ces sauvegardes en nous contactant par mail à l'addresse [ing-sigl-siops@groups.cri.epita.fr](mailto:ing-sigl-siops@groups.cri.epita.fr).
+Il est possible de demander la restauration d'une de ces sauvegardes en nous contactant par mail à l'adresse [ing-sigl-siops@groups.cri.epita.fr](mailto:ing-sigl-siops@groups.cri.epita.fr).
 
 ## SiOps Shared Responsability Model
 
@@ -39,7 +38,7 @@ Responsable de la sécurité de l’infrastructure logicielle et réseau.
 #### Matériel physique
 SiOps est responsable du maintien du matériel physique et de son renouvellement, plus précisément de notre baie dans la salle serveur du CRI. SiOps n'est cependant pas responsable du bon fonctionnement de la salle serveur.
 
-SiOps est responsable de maintenir des capacités en terme de stockage, calcul et réseau suffisantes pour tous ses clients.
+SiOps est responsable du maintien des capacités en terme de stockage, calcul et réseau suffisantes pour tous ses clients.
 
 #### Logiciel
 SiOps est responsable de l'installation et du maintien des hyperviseurs VMware sur ses serveurs.
@@ -50,7 +49,7 @@ Les clients sont responsables des actions effectuées sur leurs VMs.
 
 Les clients sont responsables de la sécurité dans leurs VMs.
 
-Les clients sont responsables des accés à leurs VMs.
+Les clients sont responsables des accès à leurs VMs.
 
 Les clients sont responsables de la mise à jour de leurs applications et systèmes d'exploitation.
 
