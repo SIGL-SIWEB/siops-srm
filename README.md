@@ -13,7 +13,6 @@ SiOps propose les applications suivantes en SaaS:
   - [Keycloak](https://www.keycloak.org/)
   - [Bitwarden](https://bitwarden.com/) (version [Vaultwarden](https://github.com/dani-garcia/vaultwarden))
   - [Wiki.js](https://js.wiki/)
-  - [EFK](https://www.elastic.co/fr/elasticsearch/)
   - [GitHub Runner](https://github.com/features/actions)
   - [Monitoring & Alerting](https://gatus.sigl.epita.fr)
 
